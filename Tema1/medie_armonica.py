@@ -7,4 +7,4 @@ mar = (3*a*b*c)/(a*b+a*c+b*c)
 mar2 = 3/((1/a)+(1/b)+(1/c))
 
 print("Media armonica este:",mar)
-print("Media armonica este:",mar2)
+print("Verificare:",mar==mar2)
