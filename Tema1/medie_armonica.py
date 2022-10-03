@@ -2,8 +2,9 @@
 print('Calcul media armonica:')
 a = int(input("a="))
 b = int(input("b="))
-mar = (2*a*b)/(a+b)
-mar2 = 2/((1/a)+(1/b))
+c = int(input('c='))
+mar = (3*a*b*c)/(a*b+a*c+b*c)
+mar2 = 3/((1/a)+(1/b)+(1/c))
 
 print("Media armonica este:",mar)
 print("Media armonica este:",mar2)

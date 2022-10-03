@@ -9,7 +9,7 @@ x1=(-b+delta**(1/2))/(2*a)
 x2=(-b-delta**(1/2))/(2*a)
 x12=-b/(2*a)
 ii=1
-x11=(-b+ii*(-delta)**(1/2))/(2*a)
+x11=(-b+ii*(-delta)**(1/2))/(2*a) # ------------- Am pus numar irational i == ii = 1 ca sa dea rezultat pentru formula Delta = 0
 x22=(-b-ii*(-delta)**(1/2))/(2*a)
 if delta > 0:
     print(f'Delta >0, X1 este: ', x1,', X2 este: ', x2)
@@ -20,4 +20,4 @@ else:
         if delta == 0:
             print(f'Delta =0, X1 este:', x11, 'X2 este:', x22)
         else:
-            print ("Cedva nu este corect")
+            print ("Ceva nu este corect")
